@@ -122,7 +122,7 @@ img {
     z-index: 10;
     background-color: white;
     position: fixed;
-    top:201px;
+    bottom:413px;
     left:0px;
     padding: 0 2.5%;
     text-align: justify;
@@ -134,7 +134,7 @@ img {
     z-index: 10;
     background-color: white;
     position: fixed;
-    top:430px;
+    bottom:184px;
     left:0px;
     padding: 0 2.5%;
     text-align: justify;
@@ -146,296 +146,297 @@ img {
     z-index: 10;
     background-color: white;
     position: fixed;
-    top:605px;
+    bottom:8px;
     left:0px;
     padding: 0 2.5%;
     text-align: justify;
     text-align-last: justify;
 }
 
-/* Desktop */
+/*----------------------- Full Desktop -----------------------*/
+
 @media all and (min-width: 1416px) {
 
-    body, h1, h2, h3 {
-        font-family: akg, helvetica;
-        font-size: 36pt;
-        font-weight: normal;
-        text-transform: uppercase;
-        line-height: 1.4;
-        padding: 0;
-    }
-    
-    p {
-        margin-top: 5vh;
-    }
-    
-    .contents {
-        height: 94vh;
-        display: fixed;
-        flex-flow: column;
-        justify-content: space-between;
-        width: 450px;
-        padding: 3vh 1.5vw 3vh 1.5vw;
-        overflow: scroll;
-    }
+        body, h1, h2, h3 {
+            font-family: akg, helvetica;
+            font-size: 36pt;
+            font-weight: normal;
+            text-transform: uppercase;
+            line-height: 1.4;
+            padding: 0;
+        }
 
-    .content {
-        padding-top: 3vh;
-    }
+        p {
+            margin-top: 5vh;
+        }
 
-    .main {
-        margin: 0;
-        position: absolute;
-        width: 60vw;
-        padding: 0vh 1.5vw 3vh 1.5vw;
-        top:0px;
-        left:35vw;
-        overflow: scroll;
-    }
-    
-    .mainhead {
-        padding-top: 2.5vh;
-    }
-    
-    .about {
-        margin: 0;
-        position: absolute;
-        width: 65vw;
-        padding: 3vh 1.5vw 3vh 1.5vw;
-        top:0px;
-        right:0px;
-        overflow: scroll;
-    }
-        
-    .header {
+        .contents {
+            height: 94vh;
+            display: fixed;
+            flex-flow: column;
+            justify-content: space-between;
+            width: 450px;
+            padding: 3vh 1.5vw 3vh 1.5vw;
+            overflow: scroll;
+        }
+
+        .content {
+            padding-top: 3vh;
+        }
+
+        .main {
+            margin: 0;
+            position: absolute;
+            width: 60vw;
+            padding: 0vh 1.5vw 3vh 1.5vw;
+            top:0px;
+            left:35vw;
+            overflow: scroll;
+        }
+
+        .mainhead {
+            padding-top: 2.5vh;
+        }
+
+        .about {
+            margin: 0;
+            position: absolute;
+            width: 65vw;
+            padding: 3vh 1.5vw 3vh 1.5vw;
+            top:0px;
+            right:0px;
+            overflow: scroll;
+        }
+
+        .header {
+            visibility: hidden;
+        }
+
+        .headerp {
         visibility: hidden;
-    }
-    
-    .headerp {
-    visibility: hidden;
-    }
-       
-    .headerm {
-    visibility: hidden;
-    }
-    
-    .hidecontents {
-        height: 100%;
-        display: flex;
-        flex-flow: column;
-        justify-content: space-around;
-        position: fixed;
-        top: 0px;
-        left: 0px;
-        visibility: visible;
-        height: 94vh;
-        display: flex;
-        flex-flow: column;
-        justify-content: space-between;
-        width: 450px;
-        padding: 3vh 1.5vw 3vh 1.5vw;
-        overflow: scroll;
-    }
+        }
 
-    .firsthead {
-        padding-top: 2.5vh;
+        .headerm {
+        visibility: hidden;
+        }
+
+        .hidecontents {
+            height: 100%;
+            display: flex;
+            flex-flow: column;
+            justify-content: space-around;
+            position: fixed;
+            top: 0px;
+            left: 0px;
+            visibility: visible;
+            height: 94vh;
+            display: flex;
+            flex-flow: column;
+            justify-content: space-between;
+            width: 450px;
+            padding: 3vh 1.5vw 3vh 1.5vw;
+            overflow: scroll;
+        }
+
+        .firsthead {
+            padding-top: 2.5vh;
+        }
+
+        img {
+            padding: 1% 0;
+            max-height: 90vh;
+            width:auto;
+            max-width: 100%;
+        }
     }
-    
-    img {
-        padding: 1% 0;
-        max-height: 90vh;
-        width:auto;
-        max-width: 100%;
-    }
-}
 
 
 @media all and (min-width: 1116px) and (max-width: 1416px) {
 
-   body, h1, h2, h3 {
-        font-family: akg, helvetica;
-        font-size: 36pt;
-        font-weight: normal;
-        text-transform: uppercase;
-        line-height: 1.4;
-        padding: 0;
-    }
-    
-    p {
-        margin-top: 5vh;
-    }
-    
-    .contents {
-        height: 94vh;
-        display: fixed;
-        flex-flow: column;
-        justify-content: space-between;
-        width: 450px;
-        padding: 3vh 1.5vw 3vh 1.5vw;
-        overflow: scroll;
-    }
+           body, h1, h2, h3 {
+                font-family: akg, helvetica;
+                font-size: 36pt;
+                font-weight: normal;
+                text-transform: uppercase;
+                line-height: 1.4;
+                padding: 0;
+            }
 
-    .content {
-        padding-top: 3vh;
-    }
+            p {
+                margin-top: 5vh;
+            }
 
-    .main {
-        margin: 0;
-        position: absolute;
-        width: 50vw;
-        padding: 0vh 1.5vw 3vh 1.5vw;
-        top:0px;
-        left:45vw;
-        overflow: hidden;
-    }
-    
-    .mainhead {
-        padding-top: 2.5vh;
-    }
-    
-    .about {
-        margin: 0;
-        position: absolute;
-        width: 65vw;
-        padding: 3vh 1.5vw 3vh 1.5vw;
-        top:0px;
-        right:0px;
-        overflow: scroll;
-    }
-        
-    .header {
-        visibility: hidden;
-    }
-    
-    .headerp {
-    visibility: hidden;
-    }
-       
-    .headerm {
-    visibility: hidden;
-    }
-    
-    .hidecontents {
-        height: 100%;
-        display: flex;
-        flex-flow: column;
-        justify-content: space-around;
-        position: fixed;
-        top: 0px;
-        left: 0px;
-        visibility: visible;
-        height: 94vh;
-        display: flex;
-        flex-flow: column;
-        justify-content: space-between;
-        width: 450px;
-        padding: 3vh 1.5vw 3vh 1.5vw;
-        overflow: scroll;
-    }
+            .contents {
+                height: 94vh;
+                display: fixed;
+                flex-flow: column;
+                justify-content: space-between;
+                width: 450px;
+                padding: 3vh 1.5vw 3vh 1.5vw;
+                overflow: scroll;
+            }
 
-    .firsthead {
-        padding-top: 2.5vh;
-    }
-    
-    img {
-        padding: 1% 0;
-        max-height: 90vh;
-        width:auto;
-        max-width: 100%;
-    }
-}
+            .content {
+                padding-top: 3vh;
+            }
+
+            .main {
+                margin: 0;
+                position: absolute;
+                width: 50vw;
+                padding: 0vh 1.5vw 3vh 1.5vw;
+                top:0px;
+                left:45vw;
+                overflow: hidden;
+            }
+
+            .mainhead {
+                padding-top: 2.5vh;
+            }
+
+            .about {
+                margin: 0;
+                position: absolute;
+                width: 65vw;
+                padding: 3vh 1.5vw 3vh 1.5vw;
+                top:0px;
+                right:0px;
+                overflow: scroll;
+            }
+
+            .header {
+                visibility: hidden;
+            }
+
+            .headerp {
+            visibility: hidden;
+            }
+
+            .headerm {
+            visibility: hidden;
+            }
+
+            .hidecontents {
+                height: 100%;
+                display: flex;
+                flex-flow: column;
+                justify-content: space-around;
+                position: fixed;
+                top: 0px;
+                left: 0px;
+                visibility: visible;
+                height: 94vh;
+                display: flex;
+                flex-flow: column;
+                justify-content: space-between;
+                width: 450px;
+                padding: 3vh 1.5vw 3vh 1.5vw;
+                overflow: scroll;
+            }
+
+            .firsthead {
+                padding-top: 2.5vh;
+            }
+
+            img {
+                padding: 1% 0;
+                max-height: 90vh;
+                width:auto;
+                max-width: 100%;
+            }
+        }
 
 @media all and (min-width: 800px) and (max-width: 1115px) {
 
-   body, h1, h2, h3 {
-        font-family: akg, helvetica;
-        font-size: 36pt;
-        font-weight: normal;
-        text-transform: uppercase;
-        line-height: 1.4;
-        padding: 0;
-    }
-    
-    p {
-        margin-top: 5vh;
-    }
-    
-    .contents {
-        height: 94vh;
-        display: fixed;
-        flex-flow: column;
-        justify-content: space-between;
-        width: 450px;
-        padding: 3vh 1.5vw 3vh 1.5vw;
-        overflow: scroll;
-    }
+               body, h1, h2, h3 {
+                    font-family: akg, helvetica;
+                    font-size: 36pt;
+                    font-weight: normal;
+                    text-transform: uppercase;
+                    line-height: 1.4;
+                    padding: 0;
+                }
 
-    .content {
-        padding-top: 3vh;
-    }
+                p {
+                    margin-top: 5vh;
+                }
 
-    .main {
-        margin: 0;
-        position: absolute;
-        width: 36vw;
-        padding: 0vh 1.5vw 3vh 1.5vw;
-        top:0px;
-        left:60vw;
-        overflow: hidden;
-    }
-    
-    .mainhead {
-        padding-top: 2.5vh;
-    }
-    
-    .about {
-        margin: 0;
-        position: absolute;
-        width: 65vw;
-        padding: 3vh 1.5vw 3vh 1.5vw;
-        top:0px;
-        right:0px;
-        overflow: scroll;
-    }
-        
-    .header {
-        visibility: hidden;
-    }
-    
-    .headerp {
-    visibility: hidden;
-    }
-       
-    .headerm {
-    visibility: hidden;
-    }
-    
-    .hidecontents {
-        height: 100%;
-        display: flex;
-        flex-flow: column;
-        justify-content: space-around;
-        position: fixed;
-        top: 0px;
-        left: 0px;
-        visibility: visible;
-        height: 94vh;
-        display: flex;
-        flex-flow: column;
-        justify-content: space-between;
-        width: 450px;
-        padding: 3vh 1.5vw 3vh 1.5vw;
-        overflow: scroll;
-    }
+                .contents {
+                    height: 94vh;
+                    display: fixed;
+                    flex-flow: column;
+                    justify-content: space-between;
+                    width: 450px;
+                    padding: 3vh 1.5vw 3vh 1.5vw;
+                    overflow: scroll;
+                }
 
-    .firsthead {
-        padding-top: 2.5vh;
-    }
-    
-    img {
-        padding: 1% 0;
-        max-height: 90vh;
-        width:auto;
-        max-width: 100%;
-    }
-}
+                .content {
+                    padding-top: 3vh;
+                }
+
+                .main {
+                    margin: 0;
+                    position: absolute;
+                    width: 36vw;
+                    padding: 0vh 1.5vw 3vh 1.5vw;
+                    top:0px;
+                    left:60vw;
+                    overflow: hidden;
+                }
+
+                .mainhead {
+                    padding-top: 2.5vh;
+                }
+
+                .about {
+                    margin: 0;
+                    position: absolute;
+                    width: 65vw;
+                    padding: 3vh 1.5vw 3vh 1.5vw;
+                    top:0px;
+                    right:0px;
+                    overflow: scroll;
+                }
+
+                .header {
+                    visibility: hidden;
+                }
+
+                .headerp {
+                visibility: hidden;
+                }
+
+                .headerm {
+                visibility: hidden;
+                }
+
+                .hidecontents {
+                    height: 100%;
+                    display: flex;
+                    flex-flow: column;
+                    justify-content: space-around;
+                    position: fixed;
+                    top: 0px;
+                    left: 0px;
+                    visibility: visible;
+                    height: 94vh;
+                    display: flex;
+                    flex-flow: column;
+                    justify-content: space-between;
+                    width: 450px;
+                    padding: 3vh 1.5vw 3vh 1.5vw;
+                    overflow: scroll;
+                }
+
+                .firsthead {
+                    padding-top: 2.5vh;
+                }
+
+                img {
+                    padding: 1% 0;
+                    max-height: 90vh;
+                    width:auto;
+                    max-width: 100%;
+                }
+            }
