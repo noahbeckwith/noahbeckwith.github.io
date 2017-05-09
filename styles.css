@@ -18,6 +18,7 @@ h1, h2, h3 {
 
 body {
     margin: 2.5%;
+    display: flex;
 }
 
 p {
@@ -27,25 +28,34 @@ p {
     margin-bottom: 0;
 }
 
-h1 {
-    text-align: center;
-}
-
-h2 {
+h1, h2 {
     text-align: justify;
     text-align-last: justify;
 }
 
 .firsthead {
+    padding-top: 0;
+}
+
+/*
+.firsthead {
     padding-top: 8.5vh;
 }
+*/
 
 .mainhead {
     padding-top: 8.5vh;
 }
 
+/*
 h3 {
     text-align: center;
+    padding: 0;
+}
+*/
+
+h3 {
+    text-align: left;
     padding: 0;
 }
 
@@ -107,18 +117,44 @@ img {
     width: 95%;
 }
 
+.headerm {
+    width: 95vw;
+    z-index: 10;
+    background-color: white;
+    position: fixed;
+    top:201px;
+    left:0px;
+    padding: 0 2.5%;
+    text-align: justify;
+    text-align-last: justify;
+}
+
+.headerp {
+    width: 95vw;
+    z-index: 10;
+    background-color: white;
+    position: fixed;
+    top:430px;
+    left:0px;
+    padding: 0 2.5%;
+    text-align: justify;
+    text-align-last: justify;
+}
+
 .header {
     width: 95vw;
     z-index: 10;
     background-color: white;
     position: fixed;
-    top:0px;
+    top:605px;
     left:0px;
     padding: 0 2.5%;
+    text-align: justify;
+    text-align-last: justify;
 }
 
 /* Desktop */
-@media all and (min-width: 800px) {
+@media all and (min-width: 1416px) {
 
     body, h1, h2, h3 {
         font-family: akg, helvetica;
@@ -175,6 +211,14 @@ img {
         visibility: hidden;
     }
     
+    .headerp {
+    visibility: hidden;
+    }
+       
+    .headerm {
+    visibility: hidden;
+    }
+    
     .hidecontents {
         height: 100%;
         display: flex;
@@ -195,5 +239,203 @@ img {
 
     .firsthead {
         padding-top: 2.5vh;
+    }
+    
+    img {
+        padding: 1% 0;
+        max-height: 90vh;
+        width:auto;
+        max-width: 100%;
+    }
+}
+
+
+@media all and (min-width: 1116px) and (max-width: 1416px) {
+
+   body, h1, h2, h3 {
+        font-family: akg, helvetica;
+        font-size: 36pt;
+        font-weight: normal;
+        text-transform: uppercase;
+        line-height: 1.4;
+        padding: 0;
+    }
+    
+    p {
+        margin-top: 5vh;
+    }
+    
+    .contents {
+        height: 94vh;
+        display: fixed;
+        flex-flow: column;
+        justify-content: space-between;
+        width: 450px;
+        padding: 3vh 1.5vw 3vh 1.5vw;
+        overflow: scroll;
+    }
+
+    .content {
+        padding-top: 3vh;
+    }
+
+    .main {
+        margin: 0;
+        position: absolute;
+        width: 50vw;
+        padding: 0vh 1.5vw 3vh 1.5vw;
+        top:0px;
+        left:45vw;
+        overflow: hidden;
+    }
+    
+    .mainhead {
+        padding-top: 2.5vh;
+    }
+    
+    .about {
+        margin: 0;
+        position: absolute;
+        width: 65vw;
+        padding: 3vh 1.5vw 3vh 1.5vw;
+        top:0px;
+        right:0px;
+        overflow: scroll;
+    }
+        
+    .header {
+        visibility: hidden;
+    }
+    
+    .headerp {
+    visibility: hidden;
+    }
+       
+    .headerm {
+    visibility: hidden;
+    }
+    
+    .hidecontents {
+        height: 100%;
+        display: flex;
+        flex-flow: column;
+        justify-content: space-around;
+        position: fixed;
+        top: 0px;
+        left: 0px;
+        visibility: visible;
+        height: 94vh;
+        display: flex;
+        flex-flow: column;
+        justify-content: space-between;
+        width: 450px;
+        padding: 3vh 1.5vw 3vh 1.5vw;
+        overflow: scroll;
+    }
+
+    .firsthead {
+        padding-top: 2.5vh;
+    }
+    
+    img {
+        padding: 1% 0;
+        max-height: 90vh;
+        width:auto;
+        max-width: 100%;
+    }
+}
+
+@media all and (min-width: 800px) and (max-width: 1115px) {
+
+   body, h1, h2, h3 {
+        font-family: akg, helvetica;
+        font-size: 36pt;
+        font-weight: normal;
+        text-transform: uppercase;
+        line-height: 1.4;
+        padding: 0;
+    }
+    
+    p {
+        margin-top: 5vh;
+    }
+    
+    .contents {
+        height: 94vh;
+        display: fixed;
+        flex-flow: column;
+        justify-content: space-between;
+        width: 450px;
+        padding: 3vh 1.5vw 3vh 1.5vw;
+        overflow: scroll;
+    }
+
+    .content {
+        padding-top: 3vh;
+    }
+
+    .main {
+        margin: 0;
+        position: absolute;
+        width: 36vw;
+        padding: 0vh 1.5vw 3vh 1.5vw;
+        top:0px;
+        left:60vw;
+        overflow: hidden;
+    }
+    
+    .mainhead {
+        padding-top: 2.5vh;
+    }
+    
+    .about {
+        margin: 0;
+        position: absolute;
+        width: 65vw;
+        padding: 3vh 1.5vw 3vh 1.5vw;
+        top:0px;
+        right:0px;
+        overflow: scroll;
+    }
+        
+    .header {
+        visibility: hidden;
+    }
+    
+    .headerp {
+    visibility: hidden;
+    }
+       
+    .headerm {
+    visibility: hidden;
+    }
+    
+    .hidecontents {
+        height: 100%;
+        display: flex;
+        flex-flow: column;
+        justify-content: space-around;
+        position: fixed;
+        top: 0px;
+        left: 0px;
+        visibility: visible;
+        height: 94vh;
+        display: flex;
+        flex-flow: column;
+        justify-content: space-between;
+        width: 450px;
+        padding: 3vh 1.5vw 3vh 1.5vw;
+        overflow: scroll;
+    }
+
+    .firsthead {
+        padding-top: 2.5vh;
+    }
+    
+    img {
+        padding: 1% 0;
+        max-height: 90vh;
+        width:auto;
+        max-width: 100%;
     }
 }
