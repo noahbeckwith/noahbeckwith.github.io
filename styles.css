@@ -91,16 +91,16 @@ img {
 
 @media all and (min-width:600px) {
     body {
-        font-size: 30px;
+        font-size: 3vh;
     }
     
     .main {
         position: fixed;
         right: 15px;
-        width: 400px;
+        width: 40vh;
     }
     
     #small {
-        font-size:18px;
+        font-size:1.75vh;
     }
 }
