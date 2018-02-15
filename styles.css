@@ -19,9 +19,11 @@ a:hover {
 }
 
 a:active {
+    font-style: normal;
 }
 
 a:visited {
+        font-style: normal;
 }
 
 p {
@@ -53,7 +55,7 @@ li {
     flex-wrap: initial;
     justify-content: space-around;
     margin: 10px;
-    position: fixed;
+    position: relative;
     top: 0px;
 }
 
