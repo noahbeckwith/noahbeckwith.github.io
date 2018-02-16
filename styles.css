@@ -55,6 +55,7 @@ li {
     flex-wrap: initial;
     justify-content: space-around;
     margin: 10px;
+	padding-bottom: 10vh;
     position: relative;
     top: 7vh;
 }
