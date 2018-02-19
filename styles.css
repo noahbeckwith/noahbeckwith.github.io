@@ -99,8 +99,8 @@ img {
     
     .main {
         position: fixed;
-        left: 5px;
-        width: 40vh;
+        right: 15px;
+        width: 380px;
     }
     
     #small {
