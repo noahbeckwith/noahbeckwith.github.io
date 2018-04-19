@@ -15,15 +15,15 @@ a {
 }
 
 a:hover { 
-    padding-left: 5px;
+    font-style: italic;
 }
 
 a:active {
-    padding-left: 35px;
+    font-style: normal;
 }
 
 a:visited {
-    padding-left: 0px;
+    font-style: normal;
 }
 
 p {
@@ -105,5 +105,26 @@ img {
     
     #small {
         font-size:1.75vh;
+    }
+    
+    a {
+        color:black;
+        text-decoration: none;
+        font-style: normal;
+    }
+
+    a:hover { 
+        padding-left: 5px;
+        font-style: normal;
+    }
+
+    a:active {
+        padding-left: 35px;
+        font-style: normal;
+    }
+
+    a:visited {
+        padding-left: 0px;
+        font-style: normal;
     }
 }
