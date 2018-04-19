@@ -15,15 +15,15 @@ a {
 }
 
 a:hover { 
-    font-style: italic;
+    padding-left: 5px;
 }
 
 a:active {
-    font-style: normal;
+    padding-left: 35px;
 }
 
 a:visited {
-        font-style: normal;
+    padding-left: 0px;
 }
 
 p {
