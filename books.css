@@ -1,0 +1,45 @@
+body {
+    font-family: Suisseintl-medium;
+    font-size: 9pt;
+}
+
+a {
+    text-decoration: none;
+    cursor:cell;
+}
+
+a:hover {
+        text-decoration: none;
+/*        color: orangered;*/
+}
+
+a.one:hover + img.first{
+    display: block;
+}
+
+img.first {
+    z-index: 2;
+    position: fixed;
+    max-height: 95vh;
+    top: 10px;
+    left:50%;
+    pointer-events: none;
+    display: none;
+}
+
+taken {
+    text-decoration: line-through;
+}
+
+ol {
+    list-style: none;
+    padding: none;
+    margin: 0px;
+    text-indent: -40px;
+}
+
+.titles {
+    position:absolute;
+    padding: 0px;
+    margin: 0px;
+}
