@@ -1,5 +1,10 @@
+@font-face {
+    font-family: s;
+    src: url(/fonts/s.woff);
+}
+
 body {
-    font-family: Suisseintl-medium;
+    font-family: s;
     font-size: 9pt;
 }
 
