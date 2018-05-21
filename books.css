@@ -3,48 +3,66 @@
     src: url(fonts/s.woff);
 }
 
-body {
-    font-family: s;
-    font-size: 9pt;
-}
-
-a {
-    text-decoration: none;
-    cursor:cell;
-}
-
-a:hover {
-        text-decoration: none;
-/*        color: orangered;*/
-}
-
-a.one:hover + img.first{
-    display: block;
-}
-
-img.first {
-    z-index: 2;
-    position: fixed;
-    max-height: 95vh;
-    top: 10px;
-    left:50%;
-    pointer-events: none;
+.titles {
     display: none;
 }
 
-taken {
-    text-decoration: line-through;
+.note {
+    display: block;
+    font-family: s;
+    font-size: 10pt;
 }
 
-ol {
-    list-style: none;
-    padding: none;
-    margin: 0px;
-    text-indent: -40px;
-}
+@media all and (min-width:500px) {
+    
+    body {
+        font-family: s;
+        font-size: 10pt;
+    }
 
-.titles {
-    position:absolute;
-    padding: 0px;
-    margin: 0px;
+    a {
+        text-decoration: none;
+        cursor:cell;
+    }
+
+    a:hover {
+            text-decoration: none;
+    /*        color: orangered;*/
+    }
+
+    a.one:hover + img.first{
+        display: block;
+    }
+
+    img.first {
+        z-index: 2;
+        position: fixed;
+        max-height: 95vh;
+        top: 10px;
+        left:50%;
+        pointer-events: none;
+        display: none;
+    }
+
+    taken {
+        text-decoration: line-through;
+    }
+
+    ol {
+        list-style: none;
+        padding: none;
+        margin: 0px;
+        text-indent: -40px;
+    }
+
+    .titles {
+        display: block;
+        position:absolute;
+        padding: 0px;
+        margin: 0px;
+    }
+    
+    .note {
+        display: none;
+    }
 }
