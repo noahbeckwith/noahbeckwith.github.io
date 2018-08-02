@@ -59,7 +59,13 @@
         display: block;
         position:absolute;
         padding: 0px;
+        margin: 0px 0px 0px 30px;
+    }
+    
+    .numbers {
+        position:absolute;
         margin: 0px;
+        padding: 0px;
     }
     
     .note {
