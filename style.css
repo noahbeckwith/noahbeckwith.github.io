@@ -1,6 +1,8 @@
 body, a {
-    font-family: helvetica neue, helvetica, arial;
-    font-size: 14pt;
+    font-family: sl, helvetica neue, helvetica, arial;
+    font-size: 13pt;
+    letter-spacing: 1.5;
+    line-height: 17pt;
     -webkit-animation: color-change 2s 1;
     -moz-animation: color-change 2s 1;
     -o-animation: color-change 2s 1;
@@ -33,6 +35,11 @@ body {
     100% { color: black; }
 }
 
+@font-face {
+    font-family: sl;
+    src: url(fonts/sl.woff);
+}
+
 ul {
     list-style: none;
     padding-left: 0px;
@@ -44,15 +51,19 @@ a {
 }
 
 a:hover {
-    color: coral;
+    color: deepskyblue;
 }
 
-.pun {
+a, .pun {
     font-family: courier new;
-    font-size: 17pt;
-    line-height: 13pt;
+    font-size: 15pt;
+    line-height: 17pt;
+    letter-spacing: 0;
 }
 
-img {
-    max-width: 100%;
+sup {
+    vertical-align: text-top;
+    font-size: 9pt;
+    line-height: 14.5pt;
+    padding-left: 5px;
 }
