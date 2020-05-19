@@ -1,71 +1,85 @@
-body, a {
-    font-family: sl, helvetica neue, helvetica, arial;
-    font-size: 13pt;
-    letter-spacing: 1.5;
-    line-height: 17pt;
+body, a, ul {
     -webkit-animation: color-change 2s 1;
     -moz-animation: color-change 2s 1;
     -o-animation: color-change 2s 1;
     -ms-animation: color-change 2s 1;
     animation: color-change 2s 1;
 }
-
-body {
-    margin: 15px;
-}
-
 @-webkit-keyframes color-change {
     0% { color: white; }
-    100% { color: black; }
+    100% { color: darkgoldenrod; }
 }
 @-moz-keyframes color-change {
     0% { color: white; }
-    100% { color: black; }
+    100% { color: darkgoldenrod; }
 }
 @-ms-keyframes color-change {
     0% { color: white; }
-    100% { color: black; }
+    100% { color: darkgoldenrod; }
 }
 @-o-keyframes color-change {
     0% { color: white; }
-    100% { color: black; }
+    100% { color: darkgoldenrod; }
 }
 @keyframes color-change {
     0% { color: white; }
-    100% { color: black; }
+    100% { color: darkgoldenrod; }
 }
 
-@font-face {
-    font-family: sl;
-    src: url(fonts/sl.woff);
+@media only screen and (max-width: 778px) {
 }
 
-ul {
+body {
+    margin:0px;
+    padding:0px;
+    display: flex;
+    justify-content: space-around;
+}
+
+ul {font-family: helvetica neue, helvetica, arial;
+    font-weight:bold;
+    font-size: 6.5vh;
+    line-height: 1em;
+    text-align: center;
+    color: darkgoldenrod;
+    text-align: center;
+    position: fixed;
+    padding: 0px;
+    margin: 0px;
     list-style: none;
-    padding-left: 0px;
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+    height: 100%;
+    max-width: 100%;
+    mix-blend-mode: difference;
 }
 
-a {
-    color:black;
+ul.back {
+    color: lightgray;
+    z-index: 0;
+}
+
+li {padding:0px;
+    margin:-.3vh 0px 0px 0px;}
+
+#small {font-size: 3.25vh;
+        line-height: 1em;}
+
+a { padding: 0;
+    color:darkgoldenrod;
     text-decoration: none;
-    transition: color .3s;
+    transition: color .2s;
 }
 
 a:hover {
-    color: deepskyblue;
-    transition: .3s;
+    color: black;
+    transition: .2s;
 }
 
-a, .pun {
-    font-family: courier new;
-    font-size: 15pt;
-    line-height: 17pt;
-    letter-spacing: 0;
-}
-
-sup {
-    vertical-align: text-top;
-    font-size: 9pt;
-    line-height: 14.5pt;
-    padding-left: 5px;
-}
+svg {
+    position:fixed;
+    z-index: -1;
+    height:100%;
+    max-width: 100%;}
