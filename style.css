@@ -6,24 +6,24 @@ body, a, ul {
     animation: color-change 2s 1;
 }
 @-webkit-keyframes color-change {
-    0% { color: white; }
-    100% { color: darkgoldenrod; }
+    0% { color: black; }
+    100% { color: white; }
 }
 @-moz-keyframes color-change {
-    0% { color: white; }
-    100% { color: darkgoldenrod; }
+    0% { color: black; }
+    100% { color: white; }
 }
 @-ms-keyframes color-change {
-    0% { color: white; }
-    100% { color: darkgoldenrod; }
+    0% { color: black; }
+    100% { color: white; }
 }
 @-o-keyframes color-change {
-    0% { color: white; }
-    100% { color: darkgoldenrod; }
+    0% { color: black; }
+    100% { color: white; }
 }
 @keyframes color-change {
-    0% { color: white; }
-    100% { color: darkgoldenrod; }
+    0% { color: black; }
+    100% { color: white; }
 }
 
 @media only screen and (max-width: 778px) {
@@ -103,32 +103,30 @@ svg {
 
 .fragile {
     fill:darkgoldenrod;
-/*
     -webkit-animation: fill-change 2s 1;
     -moz-animation: fill-change 2s 1;
     -o-animation: fill-change 2s 1;
     -ms-animation: fill-change 2s 1;
     animation: fill-change 2s 1;
-*/
 }
-/*
+
 @-webkit-keyframes fill-change {
     0% { fill: white; }
-    100% { fill: red; }
+    100% { fill: darkgoldenrod; }
 }
 @-moz-keyframes fill-change {
     0% { fill: white; }
-    100% { fill: red; }
+    100% { fill: darkgoldenrod; }
 }
 @-ms-keyframes fill-change {
     0% { fill: white; }
-    100% { fill: red; }
+    100% { fill: darkgoldenrod; }
 }
 @-o-keyframes fill-change {
     0% { fill: white; }
-    100% { fill: red; }
+    100% { fill: darkgoldenrod; }
 }
 @keyframes fill-change {
     0% { fill: white; }
-    100% { fill: red; }
-}*/
+    100% { fill: darkgoldenrod; }
+}
