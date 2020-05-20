@@ -61,6 +61,11 @@ ul {font-family: helvetica neue, helvetica, arial;
     mix-blend-mode:difference;
 }
 
+ul.back {
+    color: lightgray;
+    z-index: 0;
+}
+
 li {padding:0px;
     margin:-.3vh 0px 0px 0px;}
 
@@ -73,7 +78,7 @@ a { padding: 0;
 }
 
 a:hover {
-    color: #f4f469;
+    color: #f4c247;
     transition: .2s;
 }
 
@@ -126,5 +131,3 @@ svg {
     0% { fill: white; }
     100% { fill: gray; }
 }
-
-.pink {color:pink;}
