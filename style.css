@@ -7,23 +7,23 @@ body, a, ul {
 }
 @-webkit-keyframes color-change {
     0% { color: black; }
-    100% { color: white; }
+    100% { color: #3c6ee9; }
 }
 @-moz-keyframes color-change {
     0% { color: black; }
-    100% { color: white; }
+    100% { color: #3c6ee9; }
 }
 @-ms-keyframes color-change {
     0% { color: black; }
-    100% { color: white; }
+    100% { color: #3c6ee9; }
 }
 @-o-keyframes color-change {
     0% { color: black; }
-    100% { color: white; }
+    100% { color: #3c6ee9; }
 }
 @keyframes color-change {
     0% { color: black; }
-    100% { color: white; }
+    100% { color: #3c6ee9; }
 }
 
 @media only screen and (max-width: 778px) {
@@ -39,7 +39,7 @@ body {
 }
 
 ul, a {
-    color:white;
+    color:#3c6ee9;
 }
 
 ul {font-family: helvetica neue, helvetica, arial;
@@ -61,11 +61,6 @@ ul {font-family: helvetica neue, helvetica, arial;
     mix-blend-mode:difference;
 }
 
-ul.back {
-    color: lightgray;
-    z-index: 0;
-}
-
 li {padding:0px;
     margin:-.3vh 0px 0px 0px;}
 
@@ -78,7 +73,7 @@ a { padding: 0;
 }
 
 a:hover {
-    color: #f4c247;
+    color: #f4f469;
     transition: .2s;
 }
 
@@ -103,7 +98,7 @@ svg {
 }
 
 .fragile {
-    fill:darkgoldenrod;
+    fill:gray;
     -webkit-animation: fill-change 2s 1;
     -moz-animation: fill-change 2s 1;
     -o-animation: fill-change 2s 1;
@@ -113,21 +108,23 @@ svg {
 
 @-webkit-keyframes fill-change {
     0% { fill: white; }
-    100% { fill: darkgoldenrod; }
+    100% { fill: gray; }
 }
 @-moz-keyframes fill-change {
     0% { fill: white; }
-    100% { fill: darkgoldenrod; }
+    100% { fill: gray; }
 }
 @-ms-keyframes fill-change {
     0% { fill: white; }
-    100% { fill: darkgoldenrod; }
+    100% { fill: gray; }
 }
 @-o-keyframes fill-change {
     0% { fill: white; }
-    100% { fill: darkgoldenrod; }
+    100% { fill: gray; }
 }
 @keyframes fill-change {
     0% { fill: white; }
-    100% { fill: darkgoldenrod; }
+    100% { fill: gray; }
 }
+
+.pink {color:pink;}
