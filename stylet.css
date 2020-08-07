@@ -145,7 +145,7 @@ svg {
 }
 
 
-@media only screen and (min-width: 778px) and (max-width: 1220px) {
+@media only screen and (min-width: 599px) and (max-width: 1220px) {
     ul {font-size: 2.5vw;
         margin: 2vw;
         margin-top: 1.5vw;
@@ -164,7 +164,7 @@ svg {
     }
 }
 
-@media only screen and (max-width: 778px) {
+@media only screen and (max-width: 599px) {
 ul {
     display: inline;
     font-size: 3vh;
