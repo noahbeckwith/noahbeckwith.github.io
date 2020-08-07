@@ -33,6 +33,7 @@ body {
     padding:0px;
     display: flex;
     background: white;
+    width:100%;
 }
 
 ul, a {
