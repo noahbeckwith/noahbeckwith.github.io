@@ -27,6 +27,7 @@ body, a, ul {
 }
 
 body {
+    font-family: helvetica neue, helvetica, arial;
     overflow: hidden;
     margin:0px;
     padding:0px;
@@ -38,8 +39,7 @@ ul, a {
     color:white;
 }
 
-ul {font-family: helvetica neue, helvetica, arial;
-    font-weight:bold;
+ul {font-weight:bold;
     font-size: 1.25vw;
     line-height: 1.1em;
     text-align: left;
