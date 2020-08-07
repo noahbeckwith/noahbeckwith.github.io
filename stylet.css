@@ -165,6 +165,7 @@ svg {
 }
 
 @media only screen and (max-width: 599px) {
+    body {height: 100%;}    
 ul {
     display: inline;
     font-size: 3vh;
