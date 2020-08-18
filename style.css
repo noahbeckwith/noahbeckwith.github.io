@@ -55,7 +55,7 @@ ul {font-weight:bold;
     justify-content:space-between;
     height: 100%;
     max-width: 100%;
-    mix-blend-mode:difference;
+    mix-blend-mode: difference;
 }
 
 li {flex-basis: 0;
