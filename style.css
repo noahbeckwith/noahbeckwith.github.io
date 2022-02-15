@@ -87,6 +87,11 @@ p {
     word-spacing: .1vw;
         }    
     
+.outdent {
+        margin-left:6.4vw;
+        text-indent:-6.4vw;
+    }
+    
 .columns {
         display: inline;
     }
