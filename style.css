@@ -22,6 +22,8 @@ body {
     background: white;
     }
 
+
+
 body, a{
         color: black;
 
@@ -33,15 +35,13 @@ body, a{
 
 .col {
     margin-right: 3.5vw;
-    flex:2;
+    flex:1;
 }
 
 .col2 {
     padding-right: 0px;
     flex: 1;
 }
-
-.col0 {flex: 1}
 
 .bio {
         position: fixed;
