@@ -5,8 +5,8 @@ p, a {
 @keyframes color-change {
     0% { color: darkblue; }
     10% { color: darkgoldenrod; }
-    20% { color: orangered; }
-    30% { color: blue; }
+    20% { color: royalblue; }
+    30% { color: orangered; }
     40% { color: pink; }
     50% { color: green; }
     60% { color: royalblue; }
@@ -46,6 +46,7 @@ body, a{
 .updated {
     position: fixed;
     right: 3.7vw;
+    top: 3.5vw;
     }
 
 p{
