@@ -1,14 +1,14 @@
 p, a {
-    animation: color-change 200s 50;
+    animation: color-change 120s 50;
 }
 
 @keyframes color-change {
-    0% { color: darkblue; }
-    10% { color: darkgoldenrod; }
+    0% { color: black; }
+    10% { color: darkblue; }
     20% { color: royalblue; }
     30% { color: orangered; }
-    40% { color: pink; }
-    50% { color: green; }
+    40% { color: green; }
+    50% { color: pink; }
     60% { color: royalblue; }
     70% { color: black; }
     80% { color: hotpink}
