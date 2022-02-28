@@ -5,15 +5,15 @@ p, a {
 @keyframes color-change {
     0% { color: black; }
     10% { color: darkblue; }
-    20% { color: royalblue; }
-    30% { color: orangered; }
-    40% { color: green; }
-    50% { color: pink; }
-    60% { color: royalblue; }
-    70% { color: black; }
+    20% { color: cadetblue; }
+    30% { color: green; }
+    40% { color: darkolivegreen; }
+    50% { color: darkgoldenrod; }
+    60% { color: indianred; }
+    70% { color: red; }
     80% { color: hotpink}
-    90% { color: cadetblue; }
-    100% { color: red; }
+    90% { color: pink; }
+    100% { color: black; }
 }
 
 body {
