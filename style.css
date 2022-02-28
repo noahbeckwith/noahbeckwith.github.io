@@ -18,7 +18,7 @@ p, a {
 
 body {
     margin: 3.7vw;
-    margin-top: 3.9vw;
+    margin-top: 3.5vw;
     background: white;
     }
 
@@ -43,9 +43,10 @@ body, a{
     flex: 1;
 }
 
-.bio {
-        position: fixed;
-}
+.updated {
+    position: fixed;
+    right: 3.7vw;
+    }
 
 p{
     font-family: helvetica;
@@ -97,6 +98,8 @@ p {
     }
     
 .col {margin-right: 0px;
-}
-   
-}
+    }
+    
+.updated {
+        display: none;
+    }
