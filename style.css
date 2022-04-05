@@ -5,11 +5,11 @@ p, a {
 @keyframes color-change {
     0% { color: black; }
     10% { color: darkblue; }
-    20% { color: cadetblue; }
+    20% { color: mediumblue; }
     30% { color: green; }
-    40% { color: darkolivegreen; }
-    50% { color: darkgoldenrod; }
-    60% { color: indianred; }
+    40% { color: darkgoldenrod; }
+    50% { color: darkorange; }
+    60% { color: orangered; }
     70% { color: red; }
     80% { color: hotpink}
     90% { color: pink; }
@@ -54,15 +54,14 @@ p{
     font-size: 2.5vw;
     line-height: 3vw;
     letter-spacing: .05vw;
-    word-spacing: .05vw;
+    word-spacing: -.07vw;
     font-weight: regular;
     margin: 0px;
     padding: 0px;
 }
 
 .outdent {
-    margin-left: 3.5vw;
-    text-indent: -3.5vw;
+    text-indent: 3.5vw;
 }
 
 a{ 
@@ -90,8 +89,7 @@ p {
         }    
     
 .outdent {
-        margin-left:6.4vw;
-        text-indent:-6.4vw;
+        text-indent:6.4vw;
     }
     
 .columns {
