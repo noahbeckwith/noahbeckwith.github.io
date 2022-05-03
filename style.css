@@ -1,28 +1,8 @@
-p, a {
-    animation: color-change 120s 50;
-}
-
-@keyframes color-change {
-    0% { color: black; }
-    10% { color: darkblue; }
-    20% { color: mediumblue; }
-    30% { color: green; }
-    40% { color: darkgoldenrod; }
-    50% { color: darkorange; }
-    60% { color: orangered; }
-    70% { color: red; }
-    80% { color: hotpink}
-    90% { color: pink; }
-    100% { color: black; }
-}
-
 body {
     margin: 3.7vw;
     margin-top: 3.5vw;
     background: white;
     }
-
-
 
 body, a{
         color: black;
@@ -70,7 +50,9 @@ a{
 }
 
 a:hover {
-    mix-blend-mode: difference;
+    color: white;
+    -webkit-text-stroke-width: .11vw;
+    -webkit-text-stroke-color: black;
 }
 
 @media only screen and (max-width: 599px) {
@@ -88,6 +70,10 @@ p {
     word-spacing: .1vw;
         }    
     
+a:hover {
+    -webkit-text-stroke-width: .21vw;
+}
+    
 .outdent {
         text-indent:6.4vw;
     }
@@ -100,5 +86,6 @@ p {
     }
     
 .updated {
-        display: none;
+    position: relative;
+    left: 0px;
     }
