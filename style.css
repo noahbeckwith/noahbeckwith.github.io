@@ -1,20 +1,21 @@
 body {
     margin: 0px;
     background: white;
-    height: 100vh;
-    }
+    min-height: -webkit-fill-available;
+    color: black;
+    font-family: helvetica;
+    font-size: 28px;
+    line-height: 32.5px;
+    letter-spacing: .7px;
+    word-spacing: -.5px;
+    font-weight: regular;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
 
-body {
-        color: black;
-        font-family: helvetica;
-        font-size: 28px;
-        line-height: 32.5px;
-        letter-spacing: .7px;
-        word-spacing: -.5px;
-        font-weight: regular;
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
+html {
+    height: -webkit-fill-available;
 }
 
 p {
