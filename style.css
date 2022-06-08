@@ -25,7 +25,11 @@ p {
 
 @media only screen and (max-width: 599px) {
     
-body, a {
-    font-size: 22px;
-    line-height: 26px;
+body {
+    font-size: 19px;
+    line-height: 23.5px;
+    }
+    
+p {
+    padding: 24px;
     }
