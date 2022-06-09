@@ -20,8 +20,7 @@ html {
 
 p {
     margin: 0px;
-    padding: 28px;
-    padding-bottom: 30px;
+    padding: 26px 28px;
 }
 
 .last {
@@ -36,12 +35,14 @@ a {
 @media only screen and (max-width: 599px) {
     
 body {
-    font-size: 4.7vw;
-    line-height: 5.8vw;
+    font-size: 18px;
+    line-height: 22px;
     }
     
 p {
-    padding
-    padding: 24px;
-    padding-bottom: 26px;
+    padding: 22px 24px;
     }
+    
+.last {
+    padding-bottom: 26px;
+}
