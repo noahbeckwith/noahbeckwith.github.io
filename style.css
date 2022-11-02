@@ -32,6 +32,11 @@ a {
     text-decoration: none;
 }
 
+a:hover {
+    color: red;
+}
+
+
 @media only screen and (max-width: 599px) {
     
 body {
@@ -43,6 +48,7 @@ p {
     padding: 22px 24px;
     }
     
+
 .last {
     padding-bottom: 26px;
 }
