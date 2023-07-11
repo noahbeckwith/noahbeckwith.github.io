@@ -28,6 +28,10 @@ p {
     padding-bottom: 28px;
 }
 
+.new {
+    text-align: center;
+}
+
 a {
     color: black;
     text-decoration: none;
