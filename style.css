@@ -13,10 +13,13 @@ body {
     flex-direction: column;
     justify-content: space-between;
     height: 100dvh;
+    width: 700px;
 }
 
 html {
     height: -webkit-fill-available;
+    display: grid;
+    justify-content: center;
 }
 
 p {
@@ -47,6 +50,7 @@ a:hover {
 body {
     font-size: 19px;
     line-height: 23px;
+    width: auto;
     }
     
 p {
